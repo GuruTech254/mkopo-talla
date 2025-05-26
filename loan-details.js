@@ -12,7 +12,7 @@ function generateLoanAmount() {
 }
 
 function generateVerificationFee() {
-  return Math.floor(Math.random() * (600 - 100 + 5)) + 100;
+  return Math.floor(Math.random() * (500 - 100 + 5)) + 100;
 }
 
 // Populate loan details on page load
